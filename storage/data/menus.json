@@ -1,0 +1,1182 @@
+[
+    {
+        "id": "773f09ca4662d75a7922d2f26b64b2a4",
+        "pid": "0",
+        "title": "账号",
+        "url": "#",
+        "method": "OPTIONS",
+        "slug": "2860414dba1f175d0cda312e2c87ddf8",
+        "sort": 105,
+        "status": 1
+    },
+    {
+        "id": "95b4e4a340c06bcb113b2a789f392911",
+        "pid": "0",
+        "title": "扩展",
+        "url": "#",
+        "method": "OPTIONS",
+        "slug": "2f701f424548fa2f18584532e6f05d60",
+        "sort": 105,
+        "status": 1
+    },
+    {
+        "id": "27f856356f12bea4b8e45c74e58dbf21",
+        "pid": "0",
+        "title": "操作日志",
+        "url": "#",
+        "method": "OPTIONS",
+        "slug": "576510d0960d7ac468c1e02bc260ce82",
+        "sort": 109,
+        "status": 1
+    },
+    {
+        "id": "220cbd527ef82eee9312c94f153f7f98",
+        "pid": "0",
+        "title": "系统",
+        "url": "#",
+        "method": "OPTIONS",
+        "slug": "8c0301ac1a101b063df73b1c156528d7",
+        "sort": 103,
+        "status": 1
+    },
+    {
+        "id": "b9c19f0b8c76f008fbefda5df13c7731",
+        "pid": "0",
+        "title": "登陆",
+        "url": "#",
+        "method": "OPTIONS",
+        "slug": "a27c2f0b4e3fb506f14a433534f7bc7c",
+        "sort": 100,
+        "status": 1
+    },
+    {
+        "id": "2c764d27a7bc5135618a85fe75d45408",
+        "pid": "0",
+        "title": "个人信息",
+        "url": "#",
+        "method": "OPTIONS",
+        "slug": "d4674d1f215582b8a93c6486cf54424b",
+        "sort": 102,
+        "status": 1
+    },
+    {
+        "id": "6ee0659fd928d76539d4860b36691487",
+        "pid": "0",
+        "title": "附件",
+        "url": "#",
+        "method": "OPTIONS",
+        "slug": "dcc0476aa3a9d4e87b258b2796e5a989",
+        "sort": 108,
+        "status": 1
+    },
+    {
+        "id": "dbfe697a3dc9d214e0e9b96bc4880ad8",
+        "pid": "0",
+        "title": "管理分组",
+        "url": "#",
+        "method": "OPTIONS",
+        "slug": "e17b25427af8e11406fa7fb692ac23b8",
+        "sort": 107,
+        "status": 1
+    },
+    {
+        "id": "60aba4af1eac693c8cf9dc76c1ab2cc3",
+        "pid": "0",
+        "title": "权限",
+        "url": "#",
+        "method": "OPTIONS",
+        "slug": "ec75e3e1924853faf9875da4e09ac3b1",
+        "sort": 106,
+        "status": 1
+    },
+    {
+        "id": "bbe85b01decf7975bcbaebb5ea28541c",
+        "pid": "0",
+        "title": "配置",
+        "url": "#",
+        "method": "OPTIONS",
+        "slug": "ecffbb622b021395890ac020ab2f7a47",
+        "sort": 104,
+        "status": 1
+    },
+    {
+        "id": "cd4cfe213664e323484adbb61f33cf99",
+        "pid": "773f09ca4662d75a7922d2f26b64b2a4",
+        "title": "账号授权",
+        "url": "admin/{id}/access",
+        "method": "PATCH",
+        "slug": "larke-admin.admin.access",
+        "sort": 10512,
+        "status": 1
+    },
+    {
+        "id": "85cd078534dd38b420ca6ab74aeb6eab",
+        "pid": "773f09ca4662d75a7922d2f26b64b2a4",
+        "title": "修改头像",
+        "url": "admin/{id}/avatar",
+        "method": "PATCH",
+        "slug": "larke-admin.admin.avatar",
+        "sort": 1057,
+        "status": 1
+    },
+    {
+        "id": "d284a975ec1c44e18f41605542e4ef73",
+        "pid": "773f09ca4662d75a7922d2f26b64b2a4",
+        "title": "账号添加",
+        "url": "admin",
+        "method": "POST",
+        "slug": "larke-admin.admin.create",
+        "sort": 1055,
+        "status": 1
+    },
+    {
+        "id": "3ebc9afb5d170184b3b764bbf9fd97b3",
+        "pid": "773f09ca4662d75a7922d2f26b64b2a4",
+        "title": "账号删除",
+        "url": "admin/{id}",
+        "method": "DELETE",
+        "slug": "larke-admin.admin.delete",
+        "sort": 1054,
+        "status": 1
+    },
+    {
+        "id": "d316b71921d267d90be9490ce3881b38",
+        "pid": "773f09ca4662d75a7922d2f26b64b2a4",
+        "title": "账号详情",
+        "url": "admin/{id}",
+        "method": "GET",
+        "slug": "larke-admin.admin.detail",
+        "sort": 1052,
+        "status": 1
+    },
+    {
+        "id": "0ebb3590b8f8ddd680f4e67bf812c3cd",
+        "pid": "773f09ca4662d75a7922d2f26b64b2a4",
+        "title": "账号详情",
+        "url": "admin/{id}",
+        "method": "HEAD",
+        "slug": "larke-admin.admin.detail",
+        "sort": 1052,
+        "status": 1
+    },
+    {
+        "id": "eb0dce89898b1361a2122cc6ddd6ddec",
+        "pid": "773f09ca4662d75a7922d2f26b64b2a4",
+        "title": "账号禁用",
+        "url": "admin/{id}/disable",
+        "method": "PATCH",
+        "slug": "larke-admin.admin.disable",
+        "sort": 10510,
+        "status": 1
+    },
+    {
+        "id": "c0200af3f8dfb5ee41fa448ad60ec906",
+        "pid": "773f09ca4662d75a7922d2f26b64b2a4",
+        "title": "账号启用",
+        "url": "admin/{id}/enable",
+        "method": "PATCH",
+        "slug": "larke-admin.admin.enable",
+        "sort": 1059,
+        "status": 1
+    },
+    {
+        "id": "c539536238ef96e6324f160b1426b375",
+        "pid": "773f09ca4662d75a7922d2f26b64b2a4",
+        "title": "账号列表",
+        "url": "admin",
+        "method": "HEAD",
+        "slug": "larke-admin.admin.index",
+        "sort": 1051,
+        "status": 1
+    },
+    {
+        "id": "e7c96f2fe5ec7bf4459a7e1a6d8e01f7",
+        "pid": "773f09ca4662d75a7922d2f26b64b2a4",
+        "title": "账号列表",
+        "url": "admin",
+        "method": "GET",
+        "slug": "larke-admin.admin.index",
+        "sort": 1051,
+        "status": 1
+    },
+    {
+        "id": "01d7c24fd51d8b850df9d5a5ac155cfe",
+        "pid": "773f09ca4662d75a7922d2f26b64b2a4",
+        "title": "账号退出",
+        "url": "admin/logout/{refreshToken}",
+        "method": "DELETE",
+        "slug": "larke-admin.admin.logout",
+        "sort": 10511,
+        "status": 1
+    },
+    {
+        "id": "b307b7d184928d1225d6681d780de31e",
+        "pid": "773f09ca4662d75a7922d2f26b64b2a4",
+        "title": "修改密码",
+        "url": "admin/{id}/password",
+        "method": "PATCH",
+        "slug": "larke-admin.admin.password",
+        "sort": 1058,
+        "status": 1
+    },
+    {
+        "id": "00f8693d412d399fa97cf8edfde86df5",
+        "pid": "773f09ca4662d75a7922d2f26b64b2a4",
+        "title": "账号权限",
+        "url": "admin/{id}/rules",
+        "method": "GET",
+        "slug": "larke-admin.admin.rules",
+        "sort": 1053,
+        "status": 1
+    },
+    {
+        "id": "232ba66539151a5c6e9f4d68b29a1008",
+        "pid": "773f09ca4662d75a7922d2f26b64b2a4",
+        "title": "账号权限",
+        "url": "admin/{id}/rules",
+        "method": "HEAD",
+        "slug": "larke-admin.admin.rules",
+        "sort": 1053,
+        "status": 1
+    },
+    {
+        "id": "830ecf07fc7a42cc8f4374b7de254541",
+        "pid": "773f09ca4662d75a7922d2f26b64b2a4",
+        "title": "账号更新",
+        "url": "admin/{id}",
+        "method": "PUT",
+        "slug": "larke-admin.admin.update",
+        "sort": 1056,
+        "status": 1
+    },
+    {
+        "id": "9b6130869d3bed20d0a836f494679590",
+        "pid": "6ee0659fd928d76539d4860b36691487",
+        "title": "附件删除",
+        "url": "attachment/{id}",
+        "method": "DELETE",
+        "slug": "larke-admin.attachment.delete",
+        "sort": 1083,
+        "status": 1
+    },
+    {
+        "id": "8c070676659de585a62e03dd70421ae0",
+        "pid": "6ee0659fd928d76539d4860b36691487",
+        "title": "附件详情",
+        "url": "attachment/{id}",
+        "method": "GET",
+        "slug": "larke-admin.attachment.detail",
+        "sort": 1082,
+        "status": 1
+    },
+    {
+        "id": "ad41d8a7caa82d015f9507d28946b454",
+        "pid": "6ee0659fd928d76539d4860b36691487",
+        "title": "附件详情",
+        "url": "attachment/{id}",
+        "method": "HEAD",
+        "slug": "larke-admin.attachment.detail",
+        "sort": 1082,
+        "status": 1
+    },
+    {
+        "id": "0e8f1b47d4f519bcc25d9d08d883fba1",
+        "pid": "6ee0659fd928d76539d4860b36691487",
+        "title": "附件禁用",
+        "url": "attachment/{id}/disable",
+        "method": "PATCH",
+        "slug": "larke-admin.attachment.disable",
+        "sort": 1085,
+        "status": 1
+    },
+    {
+        "id": "29e5e0634557c22beee5c123b6c91341",
+        "pid": "6ee0659fd928d76539d4860b36691487",
+        "title": "附件下载",
+        "url": "attachment/download/{code}",
+        "method": "HEAD",
+        "slug": "larke-admin.attachment.download",
+        "sort": 1088,
+        "status": 1
+    },
+    {
+        "id": "1442418892218e234a74a4527687a40d",
+        "pid": "6ee0659fd928d76539d4860b36691487",
+        "title": "附件下载",
+        "url": "attachment/download/{code}",
+        "method": "GET",
+        "slug": "larke-admin.attachment.download",
+        "sort": 1088,
+        "status": 1
+    },
+    {
+        "id": "7a553d97ed8f0cae34f06d49176b9235",
+        "pid": "6ee0659fd928d76539d4860b36691487",
+        "title": "附件下载码",
+        "url": "attachment/downcode/{id}",
+        "method": "GET",
+        "slug": "larke-admin.attachment.download-code",
+        "sort": 1087,
+        "status": 1
+    },
+    {
+        "id": "19054a0d95ec5f3e0000457d990e2018",
+        "pid": "6ee0659fd928d76539d4860b36691487",
+        "title": "附件下载码",
+        "url": "attachment/downcode/{id}",
+        "method": "HEAD",
+        "slug": "larke-admin.attachment.download-code",
+        "sort": 1087,
+        "status": 1
+    },
+    {
+        "id": "b811e26852fc8367ee13df026b14e6ea",
+        "pid": "6ee0659fd928d76539d4860b36691487",
+        "title": "附件启用",
+        "url": "attachment/{id}/enable",
+        "method": "PATCH",
+        "slug": "larke-admin.attachment.enable",
+        "sort": 1084,
+        "status": 1
+    },
+    {
+        "id": "a2791ffad10e012e3e076bec8f22e437",
+        "pid": "6ee0659fd928d76539d4860b36691487",
+        "title": "附件列表",
+        "url": "attachment",
+        "method": "HEAD",
+        "slug": "larke-admin.attachment.index",
+        "sort": 1081,
+        "status": 1
+    },
+    {
+        "id": "c1bd53b42397cbd8149792647984d8d3",
+        "pid": "6ee0659fd928d76539d4860b36691487",
+        "title": "附件列表",
+        "url": "attachment",
+        "method": "GET",
+        "slug": "larke-admin.attachment.index",
+        "sort": 1081,
+        "status": 1
+    },
+    {
+        "id": "a35183ba50c9beca329f2b64d1aa0c7c",
+        "pid": "6ee0659fd928d76539d4860b36691487",
+        "title": "上传文件",
+        "url": "attachment",
+        "method": "POST",
+        "slug": "larke-admin.attachment.upload",
+        "sort": 1086,
+        "status": 1
+    },
+    {
+        "id": "e25d176a1b711b31c056388c31c0b724",
+        "pid": "dbfe697a3dc9d214e0e9b96bc4880ad8",
+        "title": "分组授权",
+        "url": "auth/group/{id}/access",
+        "method": "PATCH",
+        "slug": "larke-admin.auth-group.access",
+        "sort": 10711,
+        "status": 1
+    },
+    {
+        "id": "6a09e69e67f1b014b98239d3d68eae3a",
+        "pid": "dbfe697a3dc9d214e0e9b96bc4880ad8",
+        "title": "分组添加",
+        "url": "auth/group",
+        "method": "POST",
+        "slug": "larke-admin.auth-group.create",
+        "sort": 1076,
+        "status": 1
+    },
+    {
+        "id": "6229ac52bd79d688f93b5b484713de5e",
+        "pid": "dbfe697a3dc9d214e0e9b96bc4880ad8",
+        "title": "分组删除",
+        "url": "auth/group/{id}",
+        "method": "DELETE",
+        "slug": "larke-admin.auth-group.delete",
+        "sort": 1075,
+        "status": 1
+    },
+    {
+        "id": "01de108e217eac16f7cdde18632769ff",
+        "pid": "dbfe697a3dc9d214e0e9b96bc4880ad8",
+        "title": "分组详情",
+        "url": "auth/group/{id}",
+        "method": "GET",
+        "slug": "larke-admin.auth-group.detail",
+        "sort": 1074,
+        "status": 1
+    },
+    {
+        "id": "22c1df175b5244be6fbf571db8ffc6a7",
+        "pid": "dbfe697a3dc9d214e0e9b96bc4880ad8",
+        "title": "分组详情",
+        "url": "auth/group/{id}",
+        "method": "HEAD",
+        "slug": "larke-admin.auth-group.detail",
+        "sort": 1074,
+        "status": 1
+    },
+    {
+        "id": "87c74e619b2bccc20174e2ab1d245679",
+        "pid": "dbfe697a3dc9d214e0e9b96bc4880ad8",
+        "title": "分组禁用",
+        "url": "auth/group/{id}/disable",
+        "method": "PATCH",
+        "slug": "larke-admin.auth-group.disable",
+        "sort": 10710,
+        "status": 1
+    },
+    {
+        "id": "00114c7bc7db9196218573d9953d7c62",
+        "pid": "dbfe697a3dc9d214e0e9b96bc4880ad8",
+        "title": "分组启用",
+        "url": "auth/group/{id}/enable",
+        "method": "PATCH",
+        "slug": "larke-admin.auth-group.enable",
+        "sort": 1079,
+        "status": 1
+    },
+    {
+        "id": "621a51b59c84d30e16ac8bd976cd9bf9",
+        "pid": "dbfe697a3dc9d214e0e9b96bc4880ad8",
+        "title": "分组列表",
+        "url": "auth/group",
+        "method": "GET",
+        "slug": "larke-admin.auth-group.index",
+        "sort": 1071,
+        "status": 1
+    },
+    {
+        "id": "f05bdc3d2611d586fbb4f060ee54babf",
+        "pid": "dbfe697a3dc9d214e0e9b96bc4880ad8",
+        "title": "分组列表",
+        "url": "auth/group",
+        "method": "HEAD",
+        "slug": "larke-admin.auth-group.index",
+        "sort": 1071,
+        "status": 1
+    },
+    {
+        "id": "3ec3846c3aa0acb7dd6ebf24dbb9e1cf",
+        "pid": "dbfe697a3dc9d214e0e9b96bc4880ad8",
+        "title": "分组子列表",
+        "url": "auth/group/children",
+        "method": "HEAD",
+        "slug": "larke-admin.auth-group.index-children",
+        "sort": 1073,
+        "status": 1
+    },
+    {
+        "id": "c8003deeb239360edfbf0818c9d9756b",
+        "pid": "dbfe697a3dc9d214e0e9b96bc4880ad8",
+        "title": "分组子列表",
+        "url": "auth/group/children",
+        "method": "GET",
+        "slug": "larke-admin.auth-group.index-children",
+        "sort": 1073,
+        "status": 1
+    },
+    {
+        "id": "97da4b777d36a2c0806e7d2cc0214e69",
+        "pid": "dbfe697a3dc9d214e0e9b96bc4880ad8",
+        "title": "分组树结构",
+        "url": "auth/group/tree",
+        "method": "GET",
+        "slug": "larke-admin.auth-group.index-tree",
+        "sort": 1072,
+        "status": 1
+    },
+    {
+        "id": "df8ee77368364c037b3373ee51b0b6f4",
+        "pid": "dbfe697a3dc9d214e0e9b96bc4880ad8",
+        "title": "分组树结构",
+        "url": "auth/group/tree",
+        "method": "HEAD",
+        "slug": "larke-admin.auth-group.index-tree",
+        "sort": 1072,
+        "status": 1
+    },
+    {
+        "id": "a9a7b5b1507e0cd1024ad9f8da582a62",
+        "pid": "dbfe697a3dc9d214e0e9b96bc4880ad8",
+        "title": "分组排序",
+        "url": "auth/group/{id}/sort",
+        "method": "PATCH",
+        "slug": "larke-admin.auth-group.listorder",
+        "sort": 1078,
+        "status": 1
+    },
+    {
+        "id": "7aadcd8fcf35452b3a867a8e9bf2c722",
+        "pid": "dbfe697a3dc9d214e0e9b96bc4880ad8",
+        "title": "分组更新",
+        "url": "auth/group/{id}",
+        "method": "PUT",
+        "slug": "larke-admin.auth-group.update",
+        "sort": 1077,
+        "status": 1
+    },
+    {
+        "id": "0e66692e12be1808d1352e6c2843672c",
+        "pid": "60aba4af1eac693c8cf9dc76c1ab2cc3",
+        "title": "权限清空",
+        "url": "auth/rule/clear",
+        "method": "DELETE",
+        "slug": "larke-admin.auth-rule.clear",
+        "sort": 1065,
+        "status": 1
+    },
+    {
+        "id": "835732a4a08fe358109b01e847cfff16",
+        "pid": "60aba4af1eac693c8cf9dc76c1ab2cc3",
+        "title": "权限添加",
+        "url": "auth/rule",
+        "method": "POST",
+        "slug": "larke-admin.auth-rule.create",
+        "sort": 1066,
+        "status": 1
+    },
+    {
+        "id": "a287691e2465aa8b32e54f411cbd6fa7",
+        "pid": "60aba4af1eac693c8cf9dc76c1ab2cc3",
+        "title": "权限删除",
+        "url": "auth/rule/{id}",
+        "method": "DELETE",
+        "slug": "larke-admin.auth-rule.delete",
+        "sort": 1065,
+        "status": 1
+    },
+    {
+        "id": "f01cea9a0ce2c04499e94f3f500af7e8",
+        "pid": "60aba4af1eac693c8cf9dc76c1ab2cc3",
+        "title": "权限详情",
+        "url": "auth/rule/{id}",
+        "method": "GET",
+        "slug": "larke-admin.auth-rule.detail",
+        "sort": 1064,
+        "status": 1
+    },
+    {
+        "id": "8624615ac10dfeb9f63ac3719f534c77",
+        "pid": "60aba4af1eac693c8cf9dc76c1ab2cc3",
+        "title": "权限详情",
+        "url": "auth/rule/{id}",
+        "method": "HEAD",
+        "slug": "larke-admin.auth-rule.detail",
+        "sort": 1064,
+        "status": 1
+    },
+    {
+        "id": "c81bea17e21e746057ac816f2c492c09",
+        "pid": "60aba4af1eac693c8cf9dc76c1ab2cc3",
+        "title": "权限禁用",
+        "url": "auth/rule/{id}/disable",
+        "method": "PATCH",
+        "slug": "larke-admin.auth-rule.disable",
+        "sort": 10610,
+        "status": 1
+    },
+    {
+        "id": "51de19244fce96f28f0296c5a7686742",
+        "pid": "60aba4af1eac693c8cf9dc76c1ab2cc3",
+        "title": "权限启用",
+        "url": "auth/rule/{id}/enable",
+        "method": "PATCH",
+        "slug": "larke-admin.auth-rule.enable",
+        "sort": 1069,
+        "status": 1
+    },
+    {
+        "id": "82e4ce8f3b16963ca63b575f0c601471",
+        "pid": "60aba4af1eac693c8cf9dc76c1ab2cc3",
+        "title": "权限列表",
+        "url": "auth/rule",
+        "method": "GET",
+        "slug": "larke-admin.auth-rule.index",
+        "sort": 1061,
+        "status": 1
+    },
+    {
+        "id": "360e50d911dbd29b891de2d8b43a014e",
+        "pid": "60aba4af1eac693c8cf9dc76c1ab2cc3",
+        "title": "权限列表",
+        "url": "auth/rule",
+        "method": "HEAD",
+        "slug": "larke-admin.auth-rule.index",
+        "sort": 1061,
+        "status": 1
+    },
+    {
+        "id": "fd658d6fe25db9ae22bc63f1e95c0ead",
+        "pid": "60aba4af1eac693c8cf9dc76c1ab2cc3",
+        "title": "权限子列表",
+        "url": "auth/rule/children",
+        "method": "GET",
+        "slug": "larke-admin.auth-rule.index-children",
+        "sort": 1063,
+        "status": 1
+    },
+    {
+        "id": "c7a275543b60fcf9075a154b533ffe52",
+        "pid": "60aba4af1eac693c8cf9dc76c1ab2cc3",
+        "title": "权限子列表",
+        "url": "auth/rule/children",
+        "method": "HEAD",
+        "slug": "larke-admin.auth-rule.index-children",
+        "sort": 1063,
+        "status": 1
+    },
+    {
+        "id": "b4b5bba73f783194ea7f06212513a705",
+        "pid": "60aba4af1eac693c8cf9dc76c1ab2cc3",
+        "title": "权限树结构",
+        "url": "auth/rule/tree",
+        "method": "HEAD",
+        "slug": "larke-admin.auth-rule.index-tree",
+        "sort": 1062,
+        "status": 1
+    },
+    {
+        "id": "b81ae34fdcca82c9baa10263f26f6605",
+        "pid": "60aba4af1eac693c8cf9dc76c1ab2cc3",
+        "title": "权限树结构",
+        "url": "auth/rule/tree",
+        "method": "GET",
+        "slug": "larke-admin.auth-rule.index-tree",
+        "sort": 1062,
+        "status": 1
+    },
+    {
+        "id": "face83fd201088fb4411def06540d841",
+        "pid": "60aba4af1eac693c8cf9dc76c1ab2cc3",
+        "title": "权限排序",
+        "url": "auth/rule/{id}/sort",
+        "method": "PATCH",
+        "slug": "larke-admin.auth-rule.listorder",
+        "sort": 1068,
+        "status": 1
+    },
+    {
+        "id": "515bb4db271f09e2040474f509201a9e",
+        "pid": "60aba4af1eac693c8cf9dc76c1ab2cc3",
+        "title": "权限更新",
+        "url": "auth/rule/{id}",
+        "method": "PUT",
+        "slug": "larke-admin.auth-rule.update",
+        "sort": 1067,
+        "status": 1
+    },
+    {
+        "id": "41e0df6713c6008e17b29ae4910848f8",
+        "pid": "bbe85b01decf7975bcbaebb5ea28541c",
+        "title": "配置添加",
+        "url": "config",
+        "method": "POST",
+        "slug": "larke-admin.config.create",
+        "sort": 1044,
+        "status": 1
+    },
+    {
+        "id": "dc8dba8f3de406ecbf2b1ef98047fc9d",
+        "pid": "bbe85b01decf7975bcbaebb5ea28541c",
+        "title": "配置删除",
+        "url": "config/{id}",
+        "method": "DELETE",
+        "slug": "larke-admin.config.delete",
+        "sort": 1043,
+        "status": 1
+    },
+    {
+        "id": "d78ce63c18c7cd62e1e255788f0c44cc",
+        "pid": "bbe85b01decf7975bcbaebb5ea28541c",
+        "title": "配置详情",
+        "url": "config/{id}",
+        "method": "GET",
+        "slug": "larke-admin.config.detail",
+        "sort": 1042,
+        "status": 1
+    },
+    {
+        "id": "bb23226bed4ee8c4846e2c594d8cc66d",
+        "pid": "bbe85b01decf7975bcbaebb5ea28541c",
+        "title": "配置详情",
+        "url": "config/{id}",
+        "method": "HEAD",
+        "slug": "larke-admin.config.detail",
+        "sort": 1042,
+        "status": 1
+    },
+    {
+        "id": "0cd9bd5276d68bdd8ec1b852fa0709f9",
+        "pid": "bbe85b01decf7975bcbaebb5ea28541c",
+        "title": "配置禁用",
+        "url": "config/{id}/disable",
+        "method": "PATCH",
+        "slug": "larke-admin.config.disable",
+        "sort": 10410,
+        "status": 1
+    },
+    {
+        "id": "aaa94ff2a7f95d366641cdf8502634b7",
+        "pid": "bbe85b01decf7975bcbaebb5ea28541c",
+        "title": "配置启用",
+        "url": "config/{id}/enable",
+        "method": "PATCH",
+        "slug": "larke-admin.config.enable",
+        "sort": 1049,
+        "status": 1
+    },
+    {
+        "id": "8ec1609a10a5384b411f8474f66c51af",
+        "pid": "bbe85b01decf7975bcbaebb5ea28541c",
+        "title": "配置列表",
+        "url": "config",
+        "method": "GET",
+        "slug": "larke-admin.config.index",
+        "sort": 1041,
+        "status": 1
+    },
+    {
+        "id": "2bec620477163d86ea50ad37ff4d0f83",
+        "pid": "bbe85b01decf7975bcbaebb5ea28541c",
+        "title": "配置列表",
+        "url": "config",
+        "method": "HEAD",
+        "slug": "larke-admin.config.index",
+        "sort": 1041,
+        "status": 1
+    },
+    {
+        "id": "7d6f3c0733b0a50a5da94ffb8ef55bc9",
+        "pid": "bbe85b01decf7975bcbaebb5ea28541c",
+        "title": "配置排序",
+        "url": "config/{id}/sort",
+        "method": "PATCH",
+        "slug": "larke-admin.config.listorder",
+        "sort": 1048,
+        "status": 1
+    },
+    {
+        "id": "e8ae40e2270066bcaa984e41de944e92",
+        "pid": "bbe85b01decf7975bcbaebb5ea28541c",
+        "title": "配置全部列表",
+        "url": "config/list",
+        "method": "HEAD",
+        "slug": "larke-admin.config.lists",
+        "sort": 1045,
+        "status": 1
+    },
+    {
+        "id": "0e70f085469ceff3443b3730e716d329",
+        "pid": "bbe85b01decf7975bcbaebb5ea28541c",
+        "title": "配置全部列表",
+        "url": "config/list",
+        "method": "GET",
+        "slug": "larke-admin.config.lists",
+        "sort": 1045,
+        "status": 1
+    },
+    {
+        "id": "33b5aae4bfe7e94a96f7d05bdab31ac6",
+        "pid": "bbe85b01decf7975bcbaebb5ea28541c",
+        "title": "更新配置",
+        "url": "config/setting",
+        "method": "PUT",
+        "slug": "larke-admin.config.setting",
+        "sort": 1046,
+        "status": 1
+    },
+    {
+        "id": "8189751412f1b41ebbe8bad312677063",
+        "pid": "bbe85b01decf7975bcbaebb5ea28541c",
+        "title": "获取配置数组",
+        "url": "config/settings",
+        "method": "GET",
+        "slug": "larke-admin.config.settings",
+        "sort": 1047,
+        "status": 1
+    },
+    {
+        "id": "d01c747906ed61c8fda6e4db77ad07a8",
+        "pid": "bbe85b01decf7975bcbaebb5ea28541c",
+        "title": "获取配置数组",
+        "url": "config/settings",
+        "method": "HEAD",
+        "slug": "larke-admin.config.settings",
+        "sort": 1047,
+        "status": 1
+    },
+    {
+        "id": "1226dae84838d05615c43a9851976d41",
+        "pid": "bbe85b01decf7975bcbaebb5ea28541c",
+        "title": "配置更新",
+        "url": "config/{id}",
+        "method": "PUT",
+        "slug": "larke-admin.config.update",
+        "sort": 1045,
+        "status": 1
+    },
+    {
+        "id": "3337bb1952cf6d60791fe0a80c9dba49",
+        "pid": "95b4e4a340c06bcb113b2a789f392911",
+        "title": "扩展配置",
+        "url": "extension/{name}/config",
+        "method": "PUT",
+        "slug": "larke-admin.extension.config",
+        "sort": 1058,
+        "status": 1
+    },
+    {
+        "id": "1e47dfcac8adb6286e304b8b3cf3c3d6",
+        "pid": "95b4e4a340c06bcb113b2a789f392911",
+        "title": "扩展禁用",
+        "url": "extension/{name}/disable",
+        "method": "PATCH",
+        "slug": "larke-admin.extension.disable",
+        "sort": 1058,
+        "status": 1
+    },
+    {
+        "id": "12c6785c6231bd233128609dd9a20421",
+        "pid": "95b4e4a340c06bcb113b2a789f392911",
+        "title": "扩展启用",
+        "url": "extension/{name}/enable",
+        "method": "PATCH",
+        "slug": "larke-admin.extension.enable",
+        "sort": 1057,
+        "status": 1
+    },
+    {
+        "id": "89c0fb1c425af8a55564c843f2407ff2",
+        "pid": "95b4e4a340c06bcb113b2a789f392911",
+        "title": "扩展列表",
+        "url": "extension/index",
+        "method": "GET",
+        "slug": "larke-admin.extension.index",
+        "sort": 1051,
+        "status": 1
+    },
+    {
+        "id": "cc6b60b1f8647d86edbb4f32d7c50b9e",
+        "pid": "95b4e4a340c06bcb113b2a789f392911",
+        "title": "扩展列表",
+        "url": "extension/index",
+        "method": "HEAD",
+        "slug": "larke-admin.extension.index",
+        "sort": 1051,
+        "status": 1
+    },
+    {
+        "id": "aca4e390b392a7a74d8e0fbe8afbe387",
+        "pid": "95b4e4a340c06bcb113b2a789f392911",
+        "title": "扩展安装",
+        "url": "extension/install/{name}",
+        "method": "POST",
+        "slug": "larke-admin.extension.install",
+        "sort": 1053,
+        "status": 1
+    },
+    {
+        "id": "6c825e52fcdb2ea0ded995ad65b9ef2f",
+        "pid": "95b4e4a340c06bcb113b2a789f392911",
+        "title": "扩展排序",
+        "url": "extension/{id}/sort",
+        "method": "PATCH",
+        "slug": "larke-admin.extension.listorder",
+        "sort": 1056,
+        "status": 1
+    },
+    {
+        "id": "718ba151f376d9619addb3b81560a55a",
+        "pid": "95b4e4a340c06bcb113b2a789f392911",
+        "title": "本地扩展",
+        "url": "extension/local",
+        "method": "HEAD",
+        "slug": "larke-admin.extension.local",
+        "sort": 1052,
+        "status": 1
+    },
+    {
+        "id": "b095e0c2c5d73b3775938ffdd864a7af",
+        "pid": "95b4e4a340c06bcb113b2a789f392911",
+        "title": "本地扩展",
+        "url": "extension/local",
+        "method": "GET",
+        "slug": "larke-admin.extension.local",
+        "sort": 1052,
+        "status": 1
+    },
+    {
+        "id": "9990527b85530ef7c97cc314c805f602",
+        "pid": "95b4e4a340c06bcb113b2a789f392911",
+        "title": "扩展卸载",
+        "url": "extension/uninstall/{name}",
+        "method": "DELETE",
+        "slug": "larke-admin.extension.uninstall",
+        "sort": 1054,
+        "status": 1
+    },
+    {
+        "id": "e73f7af428126304cbab601633990d3a",
+        "pid": "95b4e4a340c06bcb113b2a789f392911",
+        "title": "扩展更新",
+        "url": "extension/upgrade/{name}",
+        "method": "PUT",
+        "slug": "larke-admin.extension.upgrade",
+        "sort": 1055,
+        "status": 1
+    },
+    {
+        "id": "c4a1973262f3c210262a86a4936e81af",
+        "pid": "95b4e4a340c06bcb113b2a789f392911",
+        "title": "扩展上传",
+        "url": "extension/upload",
+        "method": "POST",
+        "slug": "larke-admin.extension.upload",
+        "sort": 1059,
+        "status": 1
+    },
+    {
+        "id": "e7f989b9dbbf7cd04aa4f343024c869e",
+        "pid": "27f856356f12bea4b8e45c74e58dbf21",
+        "title": "清空日志",
+        "url": "log/clear",
+        "method": "DELETE",
+        "slug": "larke-admin.log.clear",
+        "sort": 1094,
+        "status": 1
+    },
+    {
+        "id": "1e47cdf6adbf5939776f24cdf3969fc0",
+        "pid": "27f856356f12bea4b8e45c74e58dbf21",
+        "title": "日志删除",
+        "url": "log/{id}",
+        "method": "DELETE",
+        "slug": "larke-admin.log.delete",
+        "sort": 1093,
+        "status": 1
+    },
+    {
+        "id": "5fdfb6f1d4bf6f9df5a001e0fb093868",
+        "pid": "27f856356f12bea4b8e45c74e58dbf21",
+        "title": "日志详情",
+        "url": "log/{id}",
+        "method": "GET",
+        "slug": "larke-admin.log.detail",
+        "sort": 1092,
+        "status": 1
+    },
+    {
+        "id": "68610179f1e64b060d9684b145892062",
+        "pid": "27f856356f12bea4b8e45c74e58dbf21",
+        "title": "日志详情",
+        "url": "log/{id}",
+        "method": "HEAD",
+        "slug": "larke-admin.log.detail",
+        "sort": 1092,
+        "status": 1
+    },
+    {
+        "id": "df8e455612c55d07b5fa9de867db7bd3",
+        "pid": "27f856356f12bea4b8e45c74e58dbf21",
+        "title": "日志列表",
+        "url": "log",
+        "method": "HEAD",
+        "slug": "larke-admin.log.index",
+        "sort": 1091,
+        "status": 1
+    },
+    {
+        "id": "206b5038c2861e971f64a2a6686b6394",
+        "pid": "27f856356f12bea4b8e45c74e58dbf21",
+        "title": "日志列表",
+        "url": "log",
+        "method": "GET",
+        "slug": "larke-admin.log.index",
+        "sort": 1091,
+        "status": 1
+    },
+    {
+        "id": "e599e1745c46a25eed1349061c42ff29",
+        "pid": "b9c19f0b8c76f008fbefda5df13c7731",
+        "title": "验证码",
+        "url": "passport/captcha",
+        "method": "GET",
+        "slug": "larke-admin.passport.captcha",
+        "sort": 1001,
+        "status": 1
+    },
+    {
+        "id": "b6f4ff19808df799e02483ee5f32e603",
+        "pid": "b9c19f0b8c76f008fbefda5df13c7731",
+        "title": "验证码",
+        "url": "passport/captcha",
+        "method": "HEAD",
+        "slug": "larke-admin.passport.captcha",
+        "sort": 1001,
+        "status": 1
+    },
+    {
+        "id": "24356693183f7195745465492e9ff33c",
+        "pid": "b9c19f0b8c76f008fbefda5df13c7731",
+        "title": "登陆",
+        "url": "passport/login",
+        "method": "POST",
+        "slug": "larke-admin.passport.login",
+        "sort": 1002,
+        "status": 1
+    },
+    {
+        "id": "0926b714c871e1eaeed58aada94e86af",
+        "pid": "b9c19f0b8c76f008fbefda5df13c7731",
+        "title": "退出",
+        "url": "passport/logout",
+        "method": "DELETE",
+        "slug": "larke-admin.passport.logout",
+        "sort": 1004,
+        "status": 1
+    },
+    {
+        "id": "b467efacc3f67828c15d8fe4ca80f883",
+        "pid": "b9c19f0b8c76f008fbefda5df13c7731",
+        "title": "刷新token",
+        "url": "passport/refresh-token",
+        "method": "PUT",
+        "slug": "larke-admin.passport.refresh-token",
+        "sort": 1003,
+        "status": 1
+    },
+    {
+        "id": "0b60edc5fe37670f07d9be68c8dbe68c",
+        "pid": "2c764d27a7bc5135618a85fe75d45408",
+        "title": "我的信息",
+        "url": "profile",
+        "method": "GET",
+        "slug": "larke-admin.profile",
+        "sort": 1021,
+        "status": 1
+    },
+    {
+        "id": "6e57bc27c2b091ae74e33a04f004a22d",
+        "pid": "2c764d27a7bc5135618a85fe75d45408",
+        "title": "我的信息",
+        "url": "profile",
+        "method": "HEAD",
+        "slug": "larke-admin.profile",
+        "sort": 1021,
+        "status": 1
+    },
+    {
+        "id": "8c9d292f0b13ec98bc6959cce7d65338",
+        "pid": "2c764d27a7bc5135618a85fe75d45408",
+        "title": "修改头像",
+        "url": "profile/avatar",
+        "method": "PATCH",
+        "slug": "larke-admin.profile.avatar",
+        "sort": 1023,
+        "status": 1
+    },
+    {
+        "id": "403bad5d0c0ed45e68da1e73cfca5b88",
+        "pid": "2c764d27a7bc5135618a85fe75d45408",
+        "title": "修改密码",
+        "url": "profile/password",
+        "method": "PATCH",
+        "slug": "larke-admin.profile.password",
+        "sort": 1024,
+        "status": 1
+    },
+    {
+        "id": "4ba756179ecbc4c722e0fff6d3093ee4",
+        "pid": "2c764d27a7bc5135618a85fe75d45408",
+        "title": "权限列表",
+        "url": "profile/rules",
+        "method": "HEAD",
+        "slug": "larke-admin.profile.rules",
+        "sort": 1025,
+        "status": 1
+    },
+    {
+        "id": "48ec2da92db0daee87a1291a890a6837",
+        "pid": "2c764d27a7bc5135618a85fe75d45408",
+        "title": "权限列表",
+        "url": "profile/rules",
+        "method": "GET",
+        "slug": "larke-admin.profile.rules",
+        "sort": 1025,
+        "status": 1
+    },
+    {
+        "id": "2ea1716806b56dc4504443623f718ccf",
+        "pid": "2c764d27a7bc5135618a85fe75d45408",
+        "title": "修改我的信息",
+        "url": "profile/update",
+        "method": "PUT",
+        "slug": "larke-admin.profile.update",
+        "sort": 1022,
+        "status": 1
+    },
+    {
+        "id": "ce38c4c05ef21281db914e33fbd00782",
+        "pid": "220cbd527ef82eee9312c94f153f7f98",
+        "title": "设置缓存",
+        "url": "system/cache",
+        "method": "POST",
+        "slug": "larke-admin.system.cache",
+        "sort": 1033,
+        "status": 1
+    },
+    {
+        "id": "02e1231961d9faf278b088a5f946e499",
+        "pid": "220cbd527ef82eee9312c94f153f7f98",
+        "title": "清除缓存",
+        "url": "system/clear-cache",
+        "method": "POST",
+        "slug": "larke-admin.system.clear-cache",
+        "sort": 1032,
+        "status": 1
+    },
+    {
+        "id": "3e6a4d6567991227425bee2c0f5d04c3",
+        "pid": "220cbd527ef82eee9312c94f153f7f98",
+        "title": "系统详情",
+        "url": "system/info",
+        "method": "HEAD",
+        "slug": "larke-admin.system.info",
+        "sort": 1031,
+        "status": 1
+    },
+    {
+        "id": "7d99fb9aa8b152451415c4c847108730",
+        "pid": "220cbd527ef82eee9312c94f153f7f98",
+        "title": "系统详情",
+        "url": "system/info",
+        "method": "GET",
+        "slug": "larke-admin.system.info",
+        "sort": 1031,
+        "status": 1
+    },
+    {
+        "id": "690394f2585a0455ce47fb52f8d2b76b",
+        "pid": "220cbd527ef82eee9312c94f153f7f98",
+        "title": "语言包",
+        "url": "system/lang",
+        "method": "GET",
+        "slug": "larke-admin.system.lang",
+        "sort": 1034,
+        "status": 1
+    },
+    {
+        "id": "aa8420b8b154492b254bf9bc33c96dd2",
+        "pid": "220cbd527ef82eee9312c94f153f7f98",
+        "title": "语言包",
+        "url": "system/lang",
+        "method": "HEAD",
+        "slug": "larke-admin.system.lang",
+        "sort": 1034,
+        "status": 1
+    }
+]
